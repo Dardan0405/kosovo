@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.navbar .nav-megamenu{
+    position: fixed;
+    background:#fff;
+    overflow: hidden;
+    bottom:34%; 
+    padding: 1%;
+    display: none;
+    height: 52%;
+    width: 77%;
+    justify-content: space-between;
+    border-radius:  4%;
+    right: 17%;
+    
+   
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    @media(max-width:1475px){
+        box-shadow: rgba(50, 50, 93, 0.1) 0px 5px 10px -2px, rgba(0, 0, 0, 0.15) 0px 2px 5px -3px;
+    }
+    @media(max-width:1250px){
+        top: 5vw;
+    }
+}
+.menu-links h5{
+    font-family: 'Roboto', sans-serif; ;
+    color: #707070;
+    position: relative;
+    right: -6%;
+    margin: 0%;
+    padding: 1%;
+    font-weight: 300;
+    width: fit-content;
+    max-width: 100%;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    
+}
+.menu-links  .inner-links{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 79%;
+    border-right: 1px solid gray;
+}
+
+   
+
+.navbar .nav-megamenu .menu-main-link{
+    width: 33% ;
+    left:6%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+}
+
+   .navbar .nav-megamenu .main{
+    background-color: #fff;
+    width: 100%;
+    position: relative;
+    z-index: 3;
+    flex: 1;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    
+   }
+    
+
+
+   .navbar .nav-megamenu .Categorie{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    color: #4b3c99;
+}
+.navbar .nav-megamenu .icon-container{
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+
+    height: max(45px,3vw);
+    width: max(45px,3vw);
+    border-radius: 50%;
+    border-style: dotted;
+    border-width: 1px;
+    justify-content: center;
+   
+    
+    &:hover{
+        background-color: #2929D6;
+        
+       }
+    .icon{
+        position: relative;
+        z-index: 3;
+        width:40%;
+       max-height: 50%;
+       &:hover{
+        
+        filter: brightness(0) invert(1);
+       }
+       
+       
+       
+    }
+ 
+    .bg{
+        position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    top:0;
+    left: 0;
+    }
+  
+           
+    }
+
+.navbar .menu-main-link:hover .bg{display:block}
+
+
+.navbar .nav-megamenu .right{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap ;
+    width: inherit;
+    position: relative;
+    left: -7;
+.SVG{
+   
+    position: absolute;
+    bottom: 20%;
+    
+    background-size: cover;
+    background: linear-gradient(rgba(15, 13, 13, 100%), rgba(9, 11, 74, 0.6)),  url('../../../../assets/Home/Categories/Design.jpg');
+    background-repeat: no-repeat;
+    border-radius: 79px;
+    width: 88%;
+    padding: 0;
+    margin: 13%;
+    height: 30%;
+    bottom: 27%;
+    background-position: center;
+    
+}
+}
+
+ 
+    
+      
+        
+        
+        
+
+
+   
+
+
+
+/*Per Resources*/ 
+.navbar .nav-megamenus{
+    position: fixed;
+    background: #fff;
+    overflow: hidden;
+    bottom:57.2%; 
+    padding: 1%;
+    display: none;
+    height: 29%;
+    width: 15%;
+    justify-content: space-between;
+    border-radius:  4%;
+    right: 53%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    @media(max-width:1475px){
+        box-shadow: rgba(50, 50, 93, 0.1) 0px 5px 10px -2px, rgba(0, 0, 0, 0.15) 0px 2px 5px -3px;
+    }
+    @media(max-width:1250px){
+        top: 5vw;
+    }
+}
+  .inner-link{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 28%;
+    padding: 4%;
+}
+
+.navbar .nav-megamenus .menu-main-links{
+    
+    width: 131% ;
+    left: 56%;
+    position: relative;
+    margin: -4%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-decoration: none;
+    
+   }
+
+   
+ 
